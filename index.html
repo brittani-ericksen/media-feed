@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Curated Instagram-Style Feed</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .feed-container {
+    width: 400px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+  }
+  .post {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+  }
+  .profile-pic {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+  }
+  .username {
+    font-weight: 600;
+    font-size: 14px;
+    color: #262626;
+  }
+  .timestamp {
+    font-size: 10px;
+    color: #999;
+    margin-left: auto;
+  }
+  .post-image {
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 0;
+  }
+  .post-caption {
+    padding: 10px 14px 10px;
+    font-size: 14px;
+    color: #262626;
+    white-space: pre-wrap;
+  }
+  .actions {
+    padding: 0 14px 10px;
+    display: flex;
+    gap: 16px;
+  }
+  .actions span {
+    cursor: pointer;
+    color: #262626;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .comments {
+    padding: 0 14px 10px;
+  }
+  .comment {
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #262626;
+  }
+  .comment .username {
+    font-weight: 600;
+    margin-right: 4px;
+  }
+  .reply {
+    margin-left: 30px;
+    font-size: 12px;
+    color: #555;
+  }
+  .reply .username {
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<div class="feed-container">
+
+  <div class="post">
+    <div class="post-header">
+      <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?&w=42&h=42&fit=crop&crop=faces');"></div>
+      <div class="username">Alex Morgan</div>
+      <div class="timestamp">3h ago</div>
+    </div>
+    <img class="post-image" src="https://images.unsplash.com/photo-1630807512145-d4c7c2d4c9c1?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="park with garbage on the grass" />
+    <div class="post-caption">
+      Some people seriously have zero respect for shared spaces. Left their trash everywhere at the park
+    </div>
+    <div class="actions">
+      <span>❤ Like</span>
+      <span>💬 Comment</span>
+      <span>➤ Share</span>
+    </div>
+    <div class="comments">
+      <div class="comment"><span class="username">Jordan Lee</span> it's disgusting how careless some people are</div>
+      <div class="comment"><span class="username">Taylor Kim</span> I wish people had some manners.</div>
+      <div class="reply"><span class="username">Alex Morgan</span> Exactly! It’s basic respect.</div>
+    </div>
+  </div>
+
+
+  <div class="post">
+  <div class="post-header">
+    <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?&w=42&h=42&fit=crop&crop=faces');"></div>
+    <div class="username">lazy_sam</div>
+    <div class="timestamp">1h ago</div>
+  </div>
+  <img class="post-image" src="https://www.thecooldown.com/wp-content/uploads/2023/06/college-trash.jpg?w=876&h=576" alt="Messy room" />
+  <div class="post-caption">
+    ughhh ppl leaving stuff everywhere... so tired of this mess rn 😩
+  </div>
+  <div class="actions">
+    <span>❤ Like</span><span>💬 Comment</span><span>➤ Share</span>
+  </div>
+  <div class="comments">
+    <div class="comment"><span class="username">quiet_ella</span> omg same here lol</div>
+  </div>
+</div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Jordan Lee</div>
+        <div class="timestamp">6h ago</div>
+    </div>
+    <img class="post-image" src="https://static0.carbuzzimages.com/wordpress/wp-content/uploads/gallery-images/original/540000/800/540818.jpg" alt="Crowded parking lot" />
+    <div class="post-caption">
+        Another day, another parking spot taken by someone who can’t park straight.
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Sam Parker</span> omggg, why is it so hard to park properly?</div>
+        <div class="comment"><span class="username">Casey Nguyen</span> Some people just don’t care.</div>
+    </div>
+    </div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Taylor Kim</div>
+        <div class="timestamp">10h ago</div>
+    </div>
+    <img class="post-image" src="https://plus.unsplash.com/premium_photo-1670275659287-3a6b5c20300a?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lake sunset" />
+    <div class="post-caption">
+        Sunset walk by the lake. Perfect way to end the day.
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Morgan Patel</span> So beautiful! Love sunsets.</div>
+        <div class="comment"><span class="username">Jamie Carter</span> Looks so calming.</div>
+    </div>
+    </div>
+
+
+    <div class="post">
+  <div class="post-header">
+    <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?&w=42&h=42&fit=crop&crop=faces');"></div>
+    <div class="username">sunshine.joy</div>
+    <div class="timestamp">3h ago</div>
+  </div>
+  <img class="post-image" src="https://images.unsplash.com/photo-1607922680139-fe335c1f0b81?q=80&w=702&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pink roses" />
+  <div class="post-caption">
+    took a sec to smell the flowers today 🌸✨ feels good to pause sometimes
+  </div>
+  <div class="actions">
+    <span>❤ Like</span><span>💬 Comment</span><span>➤ Share</span>
+  </div>
+  <div class="comments">
+    <div class="comment"><span class="username">breezy_beth</span> love this energy!!</div>
+    <div class="comment"><span class="username">hopeful_harper</span> needed this reminder 🌼</div>
+  </div>
+</div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Sam Parker</div>
+        <div class="timestamp">12h ago</div>
+    </div>
+    <img class="post-image" src="https://images.unsplash.com/photo-1558085324-2f298b28c714?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Person wearing mask" />
+    <div class="post-caption">
+        If you can’t handle wearing a mask, then stay home and stop putting others at risk.
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Casey Nguyen</span> Preach! People are so selfish.</div>
+        <div class="comment"><span class="username">Riley Johnson</span> it’s a simple act of kindness. imagine caring about others 😪</div>
+        <div class="reply"><span class="username">Sam Parker</span> Exactly, not that hard.</div>
+    </div>
+    </div>
+
+
+<div class="post">
+  <div class="post-header">
+    <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?&w=42&h=42&fit=crop&crop=faces');"></div>
+    <div class="username">gus_williams</div>
+    <div class="timestamp">11h ago</div>
+  </div>
+  <img class="post-image" src="https://www.sru.edu/images/news/2018/July/070618a-ImageCarousel/070618a_0020.jpg" alt="Construction noise" />
+  <div class="post-caption">
+    nonstop construction noise. how am i supposed to chill? 😡
+  </div>
+  <div class="actions">
+    <span>❤ Like</span><span>💬 Comment</span><span>➤ Share</span>
+  </div>
+  <div class="comments">
+    <div class="comment"><span class="username">freebird23</span> looks like it needs it lol </div>
+    <div class="comment"><span class="username">lazy_sam</span> brutal</div>
+  </div>
+</div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Jordan Lee</div>
+        <div class="timestamp">15h ago</div>
+    </div>
+    <img class="post-image" src="https://images.unsplash.com/photo-1518887371124-412923b6ccff?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Dog park sidewalk" />
+    <div class="post-caption">
+        Wish more people would clean up after their dogs in the neighborhood... we had to dodge so many "piles" today
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Sam Parker</span> Seriously, it’s basic courtesy.</div>
+        <div class="comment"><span class="username">Casey Nguyen</span> Some people just ignore it.</div>
+    </div>
+    </div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Taylor Kim</div>
+        <div class="timestamp">17h ago</div>
+    </div>
+    <img class="post-image" src="https://plus.unsplash.com/premium_photo-1718043036192-f4c9a7e0e36c?q=80&w=1720&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smoothie drink" />
+    <div class="post-caption">
+        Tried this new smoothie recipe today — so refreshing and healthy! Even the kids liked it.
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Morgan Patel</span> Yum! Recipe, please?</div>
+        <div class="comment"><span class="username">Jamie Carter</span> I need to try this.</div>
+        <div class="reply"><span class="username">Taylor Kim</span> Will share it soon!</div>
+    </div>
+    </div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Jordan Lee</div>
+        <div class="timestamp">19h ago</div>
+    </div>
+    <img class="post-image" src="https://images.unsplash.com/photo-1627029705179-47950adf2d8a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coffee cup in hand" />
+    <div class="post-caption">
+        Morning coffee ritual ☕️ Makes all the difference.
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Sam Parker</span> Best way to start the day.</div>
+        <div class="comment"><span class="username">Casey Nguyen</span> Coffee is life.</div>
+    </div>
+    </div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Jordan Lee</div>
+        <div class="timestamp">22h ago</div>
+    </div>
+    <img class="post-image" src="https://thumbs.dreamstime.com/b/customers-standing-line-waiting-online-order-pickup-apple-retail-store-downtown-dallas-diverse-group-people-tx-us-oct-295450622.jpg" alt="line in apple store" />
+    <div class="post-caption">
+        Waiting 15 minutes for customer service is ridiculous.
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Sam Parker</span> That’s the worst.</div>
+        <div class="comment"><span class="username">Casey Nguyen</span> They don’t care about customers.</div>
+    </div>
+    </div>
+
+
+    <div class="post">
+    <div class="post-header">
+        <div class="profile-pic" style="background-image: url('https://images.unsplash.com/photo-1531123897727-8f129e1688ce?&w=42&h=42&fit=crop&crop=faces');"></div>
+        <div class="username">Taylor Kim</div>
+        <div class="timestamp">1d ago</div>
+    </div>
+    <img class="post-image" src="https://images.unsplash.com/photo-1636042744548-77b4a855373c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cozy reading nook" />
+    <div class="post-caption">
+        Lazy Sunday reading my favorite book by the window.
+    </div>
+    <div class="actions">
+        <span>❤ Like</span>
+        <span>💬 Comment</span>
+        <span>➤ Share</span>
+    </div>
+    <div class="comments">
+        <div class="comment"><span class="username">Morgan Patel</span> Sounds perfect.</div>
+        <div class="comment"><span class="username">Jamie Carter</span> Need to do this more often.</div>
+        <div class="reply"><span class="username">Taylor Kim</span> Highly recommend it!</div>
+    </div>
+    </div>
+
+</div>
+
+</body>
+</html>
